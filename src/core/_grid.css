@@ -90,6 +90,14 @@
   width: calc((var(--column-width) * 12));
 }
 
+.single[class*='column'] {
+  float: none;
+}
+
+.centered[class*='column'] {
+  margin: 0 auto;
+}
+
 [class*='xs-'][class*='column'] ~ [class*='xs-'][class*='column'] {
   margin-top: 0;
 }

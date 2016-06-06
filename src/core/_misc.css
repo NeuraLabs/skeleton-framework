@@ -1,8 +1,8 @@
 /* Misc */
 
 hr {
-  margin-top: 3rem;
-  margin-bottom: 3.5rem;
+  margin-top: .5rem;
+  margin-bottom: 1rem;
   border-width: 0;
   border-top: var(--hr);
 }

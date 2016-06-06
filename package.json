@@ -1,16 +1,12 @@
 {
   "name": "skeleton-framework",
-  "version": "1.1.1",
+  "version": "1.0.0",
   "license": "MIT",
-  "homepage": "https://github.com/skeleton-framework/skeletonframework#readme",
-  "description": "A simple responsive framework for mobile friendly development.",
-  "author": "Skeleton Framework",
+  "homepage": "https://github.com/NeuraLabs/skeleton-framework#readme",
+  "description": "Neura adaptation of skeleton framework",
+  "author": "Neura Skeleton Framework",
   "contributors": [
-    "Dave Gamache",
-    "Gary DeLaney",
-    "Ben Hinchley",
-    "Nick Lorenson",
-    "Daniel Oltmanns"
+    "Matias Crivolotti <matias@theneura.com>"
   ],
   "main": "index.js",
   "scripts": {
@@ -26,10 +22,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/skeleton-framework/skeleton-framework.git"
+    "url": "https://github.com/NeuraLabs/skeleton-framework"
   },
   "bugs": {
-    "url": "https://github.com/skeleton-framework/skeleton-framework/issues"
+    "url": "https://github.com/NeuraLabs/skeleton-framework"
   },
   "keywords": [
     "css",

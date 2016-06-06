@@ -5,15 +5,15 @@
   --max-width: 1200px;
   --gutter: 1rem;
 
-  --font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-family: "Open Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 
   --background-color: #fff;
-  --font-color: #222;
+  --font-color: #353535;
 
-  --link-color: #1EAEDB;
-  --link-color-hover: #0FA0CE;
+  --link-color: #00CCFF;
+  --link-color-hover: #1EAEDB;
 
-  --text-color-primary: #1EAEDB;
+  --text-color-primary: #00CCFF;
   --text-color-danger: #e74c3c;
   --text-color-success: #2ecc71;
 
@@ -34,12 +34,12 @@
   --primary-button-font-color-active: #FFF;
   --primary-button-font-color-disabled: #FFF;
 
-  --primary-button-background-color: #33C3F0;
+  --primary-button-background-color: #00CCFF;
   --primary-button-background-color-enter: #1EAEDB;
   --primary-button-background-color-active: #157b9b;
   --primary-button-background-color-disabled: #7CD9F8;
 
-  --primary-button-border: 1px solid #33C3F0;
+  --primary-button-border: 1px solid #00CCFF;
   --primary-button-border-color-enter: #1EAEDB;
   --primary-button-border-color-active: #157b9b;
   --primary-button-border-color-disabled: #7CD9F8;
@@ -77,7 +77,7 @@
   --form-background-color: #FFF;
   --form-font-color: #222;
   --form-border: 1px solid #D1D1D1;
-  --form-border-enter: 1px solid #33C3F0;
+  --form-border-enter: 1px solid #00CCFF;
   --form-border-enter-error: 1px solid #e74c3c;
   --form-border-enter-success: 1px solid #2ecc71;
 
@@ -89,8 +89,8 @@
   --alert-background-color: #FFF;
 
   --alert-primary-font-color: #FFF;
-  --alert-primary-border: 1px solid #33C3F0;
-  --alert-primary-background-color: #33C3F0;
+  --alert-primary-border: 1px solid #00CCFF;
+  --alert-primary-background-color: #00CCFF;
 
   --alert-success-font-color: #FFF;
   --alert-success-border: 1px solid #2ecc71;
@@ -102,7 +102,7 @@
 
   --td-border-bottom: 1px solid #E1E1E1;
 
-  --border-radius: 4px;
+  --border-radius: 3px;
   --hr: 1px solid #E1E1E1;
 
   --card-shift: -2px;
