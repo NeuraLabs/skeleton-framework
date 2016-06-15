@@ -11,7 +11,7 @@
   --font-color: #353535;
 
   --link-color: #00CCFF;
-  --link-color-hover: #1EAEDB;
+  --link-color-hover: #33D6FF;
 
   --text-color-primary: #00CCFF;
   --text-color-danger: #e74c3c;
@@ -35,12 +35,12 @@
   --primary-button-font-color-disabled: #FFF;
 
   --primary-button-background-color: #00CCFF;
-  --primary-button-background-color-enter: #1EAEDB;
+  --primary-button-background-color-enter: #33D6FF;
   --primary-button-background-color-active: #157b9b;
   --primary-button-background-color-disabled: #7CD9F8;
 
   --primary-button-border: 1px solid #00CCFF;
-  --primary-button-border-color-enter: #1EAEDB;
+  --primary-button-border-color-enter: #33D6FF;
   --primary-button-border-color-active: #157b9b;
   --primary-button-border-color-disabled: #7CD9F8;
 

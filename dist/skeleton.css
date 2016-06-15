@@ -1,4 +1,4 @@
-/*! skeleton-framework | 1.0.0 | MIT | 1/13/2016 */
+/*! skeleton-framework | 1.0.0 | MIT | 3/15/2016 */
 /* Table of contents
 - Base Styles
 - Grid
@@ -545,7 +545,7 @@ a {
 }
 
 a:hover {
-  color: #1EAEDB;
+  color: #33D6FF;
 }
 
 /* Colors
@@ -650,8 +650,8 @@ input[type="submit"].button-primary:focus,
 input[type="reset"].button-primary:focus,
 input[type="button"].button-primary:focus {
   color: #FFF;
-  background-color: #1EAEDB;
-  border-color: #1EAEDB;
+  background-color: #33D6FF;
+  border-color: #33D6FF;
 }
 
 .button.button-primary:active,
