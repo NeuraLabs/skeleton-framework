@@ -1192,6 +1192,10 @@ form {
   height: auto;
 }
 
+.u-nowrap {
+  white-space: nowrap;
+}
+
 /* Misc */
 
 hr {

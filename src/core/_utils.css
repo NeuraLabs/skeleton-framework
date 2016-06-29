@@ -100,3 +100,7 @@
   max-width: 100%;
   height: auto;
 }
+
+.u-nowrap {
+  white-space: nowrap;
+}
