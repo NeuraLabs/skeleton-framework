@@ -1,4 +1,4 @@
-/*! skeleton-framework | 1.0.0 | MIT | 3/29/2016 */
+/*! skeleton-framework | 1.0.0 | MIT | 1/4/2016 */
 /* Table of contents
 - Base Styles
 - Grid
@@ -602,8 +602,8 @@ input[type="button"] {
   text-align: center;
   font-size: 0.7rem;
   font-weight: 600;
-  /*line-height: 2.5rem;*/
-  /*letter-spacing: 0.1rem;*/
+  line-height: 2.5rem;
+  letter-spacing: 0.1rem;
   text-transform: uppercase;
   text-decoration: none;
   white-space: nowrap;
