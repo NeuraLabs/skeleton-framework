@@ -2,7 +2,7 @@
   "name": "skeleton-framework",
   "description": "A simple responsive framework for mobile friendly development.",
   "main": "dist/skeleton.css",
-  "authors": "Gary DeLaney <gld1982ltd@gmail.com>",
+  "authors": "Matias Crivolotti <matias@theneura.com>",
   "license": "MIT",
   "keywords": [
     "css",
@@ -10,7 +10,7 @@
     "skeleton",
     "skeleton-framework"
   ],
-  "homepage": "https://github.com/skeleton-framework/skeleton-framework",
+  "homepage": "https://github.com/NeuraLabs/skeleton-framework",
   "ignore": [
     "*",
     "!dist/*"
