@@ -81,6 +81,14 @@ body {
   padding-right: 0;
 }
 
+[class*='column'][class*='single'] {
+  float: none;
+}
+
+[class*='column'][class*='centered'] {
+  margin: 0 auto;
+}
+
 .xs-one[class*='column'] {
   width: 8.3333333333%;
 }
@@ -133,20 +141,16 @@ body {
   width: 99.9999999996%;
 }
 
-.xs-hide {
-  display: none;
-}
-
-.single[class*='column'] {
-  float: none;
-}
-
-.centered[class*='column'] {
-  margin: 0 auto;
-}
-
 [class*='xs-'][class*='column'] ~ [class*='xs-'][class*='column'] {
   margin-top: 0;
+}
+
+.xs-show {
+  display: block;
+}
+
+.xs-hide {
+  display: none;
 }
 
 @media screen and (min-width: 560px) {
@@ -308,8 +312,8 @@ body {
     margin-left: 91.6666666663%;
   }
 
-  .xs-hide {
-    display: initial;
+  .sm-show {
+    display: block;
   }
   .sm-hide {
     display: none;
@@ -395,11 +399,8 @@ body {
     margin-left: 91.6666666663%;
   }
 
-  .xs-hide {
-    display: initial;
-  }
-  .sm-hide {
-    display: initial;
+  .md-show {
+    display: block;
   }
   .md-hide {
     display: none;
@@ -485,14 +486,8 @@ body {
     margin-left: 91.6666666663%;
   }
 
-  .xs-hide {
-    display: initial;
-  }
-  .sm-hide {
-    display: initial;
-  }
-  .md-hide {
-    display: initial;
+  .lg-show {
+    display: block;
   }
   .lg-hide {
     display: none;
