@@ -510,7 +510,8 @@ h5,
 h6 {
   margin-top: 0;
   margin-bottom: .75rem;
-  font-weight: 300;
+  font-family: "Bebas Neue", "Open Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
 }
 
 h1 {
