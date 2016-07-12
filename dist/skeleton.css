@@ -1,4 +1,4 @@
-/*! skeleton-framework | 1.0.0 | MIT | 3/6/2016 */
+/*! skeleton-framework | 1.0.0 | MIT | 2/12/2016 */
 /* Table of contents
 - Base Styles
 - Grid
@@ -28,12 +28,18 @@ html {
 
 body {
   background-color: #fff;
-  font-size: 0.8rem;
+  font-size: 0.75rem;
   font-weight: 400;
   font-family: "Open Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #353535;
   margin: 0;
   padding: 0;
+}
+
+@media (min-width: 560px) {
+  body {
+    font-size: .875rem;
+  }
 }
 
 .container {

@@ -11,10 +11,16 @@ html {
 
 body {
   background-color: var(--background-color);
-  font-size: 0.8rem;
+  font-size: 0.75rem;
   font-weight: 400;
   font-family: var(--font-family);
   color: var(--font-color);
   margin: 0;
   padding: 0;
+}
+
+@media (min-width: 560px) {
+  body {
+    font-size: .875rem;
+  }
 }
