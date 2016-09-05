@@ -9,7 +9,7 @@ h5,
 h6 {
   margin-top: 0;
   margin-bottom: .75rem;
-  font-family: "Bebas Neue", var(--font-family);
+  font-family: var(--font-family);
   font-weight: 700;
 }
 
