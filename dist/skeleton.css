@@ -1,4 +1,4 @@
-/*! skeleton-framework | 1.0.0 | MIT | 3/7/2016 */
+/*! skeleton-framework | 1.0.0 | MIT | 1/19/2016 */
 /* Table of contents
 - Base Styles
 - Grid
@@ -280,6 +280,9 @@ body {
   .sm-twelve[class*='column'] {
     width: 99.9999999996%;
   }
+  .sm-offset-by-zero[class*='column'] {
+    margin-left: 0;
+  }
   .sm-offset-by-one[class*='column'] {
     margin-left: 8.3333333333%;
   }
@@ -367,6 +370,9 @@ body {
   .md-twelve[class*='column'] {
     width: 99.9999999996%;
   }
+  .md-offset-by-zero[class*='column'] {
+    margin-left: 0;
+  }
   .md-offset-by-one[class*='column'] {
     margin-left: 8.3333333333%;
   }
@@ -453,6 +459,9 @@ body {
   }
   .lg-twelve[class*='column'] {
     width: 99.9999999996%;
+  }
+  .lg-offset-by-zero[class*='column'] {
+    margin-left: 0;
   }
   .lg-offset-by-one[class*='column'] {
     margin-left: 8.3333333333%
