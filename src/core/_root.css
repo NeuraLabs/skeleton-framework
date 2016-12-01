@@ -3,7 +3,7 @@
   --total-columns: 12;
   --column-width: calc(100% / var(--total-columns));
   --max-width: 1200px;
-  --gutter: 1rem;
+  --gutter: 1.5rem;
 
   --font-family: "Open Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 

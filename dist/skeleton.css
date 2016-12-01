@@ -1,4 +1,4 @@
-/*! skeleton-framework | 1.0.0 | MIT | 1/19/2016 */
+/*! skeleton-framework | 1.0.0 | MIT | 4/1/2016 */
 /* Table of contents
 - Base Styles
 - Grid
@@ -47,21 +47,21 @@ body {
   margin-left: auto;
   width: 100%;
   max-width: 1200px;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
 }
 
 .container-fluid {
   margin-right: auto;
   margin-left: auto;
   width: 100%;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
 }
 
 .row {
-  margin-left: -0.5rem;
-  margin-right: -0.5rem;
+  margin-left: -0.75rem;
+  margin-right: -0.75rem;
 }
 
 .row::before,
@@ -78,8 +78,8 @@ body {
   float: left;
   width: 100%;
   min-height: 1px;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
 }
 
 [class*='column'][class*='no-gutter'] {
