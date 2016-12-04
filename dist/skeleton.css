@@ -1,4 +1,4 @@
-/*! skeleton-framework | 1.0.0 | MIT | 4/1/2016 */
+/*! skeleton-framework | 1.0.0 | MIT | 0/4/2016 */
 /* Table of contents
 - Base Styles
 - Grid
@@ -520,7 +520,7 @@ h5,
 h6 {
   margin-top: 0;
   margin-bottom: .75rem;
-  font-family: "Open Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Bebas", "Bebas Neue", "Open Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
 }
 
