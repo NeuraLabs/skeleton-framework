@@ -1,4 +1,4 @@
-/*! skeleton-framework | 1.0.0 | MIT | 0/4/2016 */
+/*! skeleton-framework | 1.0.0 | MIT | 2/6/2016 */
 /* Table of contents
 - Base Styles
 - Grid
@@ -145,6 +145,54 @@ body {
 
 .xs-twelve[class*='column'] {
   width: 99.9999999996%;
+}
+
+.xs-offset-by-one[class*='column'] {
+  margin-left: 8.3333333333%;
+}
+
+.xs-offset-by-two[class*='column'] {
+  margin-left: 16.6666666666%;
+}
+
+.xs-offset-by-three[class*='column'],
+.xs-offset-by-one-quarter[class*='column'] {
+  margin-left: 24.9999999999%;
+}
+
+.xs-offset-by-four[class*='column'],
+.xs-offset-by-one-third[class*='column'] {
+  margin-left: 33.3333333332%;
+}
+
+.xs-offset-by-five[class*='column'] {
+  margin-left: 41.6666666665%;
+}
+
+.xs-offset-by-six[class*='column'],
+.xs-offset-by-one-half[class*='column'] {
+  margin-left: 49.9999999998%;
+}
+
+.xs-offset-by-seven[class*='column'] {
+  margin-left: 58.3333333331%;
+}
+
+.xs-offset-by-eight[class*='column'],
+.xs-offset-by-two-thirds[class*='column'] {
+  margin-left: 66.6666666664%;
+}
+
+.xs-offset-by-nine[class*='column'] {
+  margin-left: 74.9999999997%;
+}
+
+.xs-offset-by-ten[class*='column'] {
+  margin-left: 83.333333333%;
+}
+
+.xs-offset-by-eleven[class*='column'] {
+  margin-left: 91.6666666663%;
 }
 
 [class*='xs-'][class*='column'] ~ [class*='xs-'][class*='column'] {
