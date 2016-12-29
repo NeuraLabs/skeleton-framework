@@ -1,4 +1,4 @@
-/*! skeleton-framework | 1.0.0 | MIT | 2/6/2016 */
+/*! skeleton-framework | 1.1.0 | MIT | 4/29/2016 */
 /* Table of contents
 - Base Styles
 - Grid
@@ -657,7 +657,7 @@ input[type="button"] {
   display: inline-block;
   height: 2.5rem;
   padding: 0 1.9rem;
-  color: #555;
+  color: #FFF;
   text-align: center;
   font-size: 0.7rem;
   font-weight: 600;
@@ -666,12 +666,12 @@ input[type="button"] {
   text-transform: uppercase;
   text-decoration: none;
   white-space: nowrap;
-  background-color: transparent;
+  background-color: #555;
   border-radius: 3px;
-  border: 1px solid #BBB;
+  border: 1px solid #555;
   cursor: pointer;
-  -webkit-transition: border 0.2s;
-  transition: border 0.2s;
+  -webkit-transition: background-color 0.2s;
+  transition: background-color 0.2s;
 }
 
 .button:hover,
@@ -684,9 +684,9 @@ button:focus,
 input[type="submit"]:focus,
 input[type="reset"]:focus,
 input[type="button"]:focus {
-  color: #333;
-  border-color: #888;
-  outline: 0;
+  color: #FFF;
+  background-color: #333;
+  border-color: #333;
 }
 
 .button:active,
@@ -694,23 +694,68 @@ button:active,
 input[type="submit"]:active,
 input[type="reset"]:active,
 input[type="button"]:active {
-  color: #222;
+  color: #FFF;
+  background-color: #222;
   border-color: #222;
 }
 
 .button:disabled,
-.button:disabled:hover,
-button[disabled],
-.button[disabled],
-.button-primary[disabled],
-.button-success[disabled],
-.button-danger[disabled],
-input[type="submit"][disabled],
-input[type="reset"][disabled],
-input[type="button"][disabled] {
-  border: 1px solid #E3E3E3;
+button:disabled,
+input[type="submit"]:disabled,
+input[type="reset"]:disabled,
+input[type="button"]:disabled {
+  color: #FFF;
+  background-color: #888;
+  border-color: #888;
+  cursor: not-allowed;
+}
+
+.button.button-ghost,
+button.button-ghost,
+input[type="submit"].button-ghost,
+input[type="reset"].button-ghost,
+input[type="button"].button-ghost {
+  border: 1px solid #555;
+  color: #555;
+  background-color: transparent;
+  -webkit-transition: background-color 0.2s;
+  transition: background-color 0.2s;
+}
+
+.button.button-ghost:hover,
+button.button-ghost:hover,
+input[type="submit"].button-ghost:hover,
+input[type="reset"].button-ghost:hover,
+input[type="button"].button-ghost:hover,
+.button.button-ghost:focus,
+button.button-ghost:focus,
+input[type="submit"].button-ghost:focus,
+input[type="reset"].button-ghost:focus,
+input[type="button"].button-ghost:focus {
+  color: #333;
+  background-color: transparent;
+  border-color: #333;
+}
+
+.button.button-ghost:active,
+button.button-ghost:active,
+input[type="submit"].button-ghost:active,
+input[type="reset"].button-ghost:active,
+input[type="button"].button-ghost:active {
+  color: #222;
+  background-color: transparent;
+  border-color: #222;
+}
+
+.button.button-ghost:disabled,
+button.button-ghost:disabled,
+input[type="submit"].button-ghost:disabled,
+input[type="reset"].button-ghost:disabled,
+input[type="button"].button-ghost:disabled {
   color: #888;
   cursor: not-allowed;
+  background-color: transparent;
+  border-color: #888;
 }
 
 .button.button-primary,
@@ -758,6 +803,54 @@ input[type="button"].button-primary:disabled {
   color: #FFF;
   cursor: not-allowed;
   background-color: #7CD9F8;
+  border-color: #7CD9F8;
+}
+
+.button.button-primary.button-ghost,
+button.button-primary.button-ghost,
+input[type="submit"].button-primary.button-ghost,
+input[type="reset"].button-primary.button-ghost,
+input[type="button"].button-primary.button-ghost {
+  border: 1px solid #00CCFF;
+  color: #00CCFF;
+  background-color: transparent;
+  -webkit-transition: background-color 0.2s;
+  transition: background-color 0.2s;
+}
+
+.button.button-primary.button-ghost:hover,
+button.button-primary.button-ghost:hover,
+input[type="submit"].button-primary.button-ghost:hover,
+input[type="reset"].button-primary.button-ghost:hover,
+input[type="button"].button-primary.button-ghost:hover,
+.button.button-primary.button-ghost:focus,
+button.button-primary.button-ghost:focus,
+input[type="submit"].button-primary.button-ghost:focus,
+input[type="reset"].button-primary.button-ghost:focus,
+input[type="button"].button-primary.button-ghost:focus {
+  color: #33D6FF;
+  background-color: transparent;
+  border-color: #33D6FF;
+}
+
+.button.button-primary.button-ghost:active,
+button.button-primary.button-ghost:active,
+input[type="submit"].button-primary.button-ghost:active,
+input[type="reset"].button-primary.button-ghost:active,
+input[type="button"].button-primary.button-ghost:active {
+  color: #157b9b;
+  background-color: transparent;
+  border-color: #157b9b;
+}
+
+.button.button-primary.button-ghost:disabled,
+button.button-primary.button-ghost:disabled,
+input[type="submit"].button-primary.button-ghost:disabled,
+input[type="reset"].button-primary.button-ghost:disabled,
+input[type="button"].button-primary.button-ghost:disabled {
+  color: #7CD9F8;
+  cursor: not-allowed;
+  background-color: transparent;
   border-color: #7CD9F8;
 }
 
@@ -809,6 +902,54 @@ input[type="button"].button-success:disabled {
   border-color: #82e3aa;
 }
 
+.button.button-success.button-ghost,
+button.button-success.button-ghost,
+input[type="submit"].button-success.button-ghost,
+input[type="reset"].button-success.button-ghost,
+input[type="button"].button-success.button-ghost {
+  border: 1px solid #2ecc71;
+  color: #2ecc71;
+  background-color: transparent;
+  -webkit-transition: background-color 0.2s;
+  transition: background-color 0.2s;
+}
+
+.button.button-success.button-ghost:hover,
+button.button-success.button-ghost:hover,
+input[type="submit"].button-success.button-ghost:hover,
+input[type="reset"].button-success.button-ghost:hover,
+input[type="button"].button-success.button-ghost:hover,
+.button.button-success.button-ghost:focus,
+button.button-success.button-ghost:focus,
+input[type="submit"].button-success.button-ghost:focus,
+input[type="reset"].button-success.button-ghost:focus,
+input[type="button"].button-success.button-ghost:focus {
+  color: #27ae60;
+  background-color: transparent;
+  border-color: #27ae60;
+}
+
+.button.button-success.button-ghost:active,
+button.button-success.button-ghost:active,
+input[type="submit"].button-success.button-ghost:active,
+input[type="reset"].button-success.button-ghost:active,
+input[type="button"].button-success.button-ghost:active {
+  color: #2ecc71;
+  background-color: transparent;
+  border-color: #2ecc71;
+}
+
+.button.button-success.button-ghost:disabled,
+button.button-success.button-ghost:disabled,
+input[type="submit"].button-success.button-ghost:disabled,
+input[type="reset"].button-success.button-ghost:disabled,
+input[type="button"].button-success.button-ghost:disabled {
+  color: #82e3aa;
+  cursor: not-allowed;
+  background-color: transparent;
+  border-color: #82e3aa;
+}
+
 .button.button-danger,
 button.button-danger,
 input[type="submit"].button-danger,
@@ -854,6 +995,54 @@ input[type="button"].button-danger:disabled {
   color: #FFF;
   cursor: not-allowed;
   background-color: #ee8377;
+  border-color: #ee8377;
+}
+
+.button.button-danger.button-ghost,
+button.button-danger.button-ghost,
+input[type="submit"].button-danger.button-ghost,
+input[type="reset"].button-danger.button-ghost,
+input[type="button"].button-danger.button-ghost {
+  border: 1px solid #e74c3c;
+  color: #e74c3c;
+  background-color: transparent;
+  -webkit-transition: background-color 0.2s;
+  transition: background-color 0.2s;
+}
+
+.button.button-danger.button-ghost:hover,
+button.button-danger.button-ghost:hover,
+input[type="submit"].button-danger.button-ghost:hover,
+input[type="reset"].button-danger.button-ghost:hover,
+input[type="button"].button-danger.button-ghost:hover,
+.button.button-danger.button-ghost:focus,
+button.button-danger.button-ghost:focus,
+input[type="submit"].button-danger.button-ghost:focus,
+input[type="reset"].button-danger.button-ghost:focus,
+input[type="button"].button-danger.button-ghost:focus {
+  color: #c0392b;
+  background-color: transparent;
+  border-color: #c0392b;
+}
+
+.button.button-danger.button-ghost:active,
+button.button-danger.button-ghost:active,
+input[type="submit"].button-danger.button-ghost:active,
+input[type="reset"].button-danger.button-ghost:active,
+input[type="button"].button-danger.button-ghost:active {
+  color: #e74c3c;
+  background-color: transparent;
+  border-color: #e74c3c;
+}
+
+.button.button-danger.button-ghost:disabled,
+button.button-danger.button-ghost:disabled,
+input[type="submit"].button-danger.button-ghost:disabled,
+input[type="reset"].button-danger.button-ghost:disabled,
+input[type="button"].button-danger.button-ghost:disabled {
+  color: #ee8377;
+  cursor: not-allowed;
+  background-color: transparent;
   border-color: #ee8377;
 }
 

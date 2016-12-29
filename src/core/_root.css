@@ -18,17 +18,35 @@
   --text-color-danger: #e74c3c;
   --text-color-success: #2ecc71;
 
-  --button-font-color: #555;
-  --button-font-color-enter: #333;
-  --button-font-color-active: #222;
-  --button-font-color-disabled: #888;
+  --button-font-color: #FFF;
+  --button-font-color-enter: #FFF;
+  --button-font-color-active: #FFF;
+  --button-font-color-disabled: #FFF;
 
-  --button-background-color: transparent;
+  --button-background-color: #555;
+  --button-background-color-enter: #333;
+  --button-background-color-active: #222;
+  --button-background-color-disabled: #888;
 
-  --button-border: 1px solid #BBB;
-  --button-border-color-enter: #888;
+  --button-border: 1px solid #555;
+  --button-border-color-enter: #333;
   --button-border-color-active: #222;
-  --button-border-disabled: 1px solid #E3E3E3;
+  --button-border-color-disabled: #888;
+
+  --button-ghost-font-color: #555;
+  --button-ghost-font-color-enter: #333;
+  --button-ghost-font-color-active: #222;
+  --button-ghost-font-color-disabled: #888;
+
+  --button-ghost-background-color: transparent;
+  --button-ghost-background-color-enter: transparent;
+  --button-ghost-background-color-active: transparent;
+  --button-ghost-background-color-disabled: transparent;
+
+  --button-ghost-border: 1px solid #555;
+  --button-ghost-border-color-enter: #333;
+  --button-ghost-border-color-active: #222;
+  --button-ghost-border-color-disabled: #888;
 
   --primary-button-font-color: #FFF;
   --primary-button-font-color-enter: #FFF;
@@ -45,6 +63,21 @@
   --primary-button-border-color-active: #157b9b;
   --primary-button-border-color-disabled: #7CD9F8;
 
+  --primary-button-ghost-font-color: #00CCFF;
+  --primary-button-ghost-font-color-enter: #33D6FF;
+  --primary-button-ghost-font-color-active: #157b9b;
+  --primary-button-ghost-font-color-disabled: #7CD9F8;
+
+  --primary-button-ghost-background-color: transparent;
+  --primary-button-ghost-background-color-enter: transparent;
+  --primary-button-ghost-background-color-active: transparent;
+  --primary-button-ghost-background-color-disabled: transparent;
+
+  --primary-button-ghost-border: 1px solid #00CCFF;
+  --primary-button-ghost-border-color-enter: #33D6FF;
+  --primary-button-ghost-border-color-active: #157b9b;
+  --primary-button-ghost-border-color-disabled: #7CD9F8;
+
   --success-button-font-color: #FFF;
   --success-button-font-color-enter: #FFF;
   --success-button-font-color-active: #FFF;
@@ -60,6 +93,21 @@
   --success-button-border-color-active: #2ecc71;
   --success-button-border-color-disabled: #82e3aa;
 
+  --success-button-ghost-font-color: #2ecc71;
+  --success-button-ghost-font-color-enter: #27ae60;
+  --success-button-ghost-font-color-active: #2ecc71;
+  --success-button-ghost-font-color-disabled: #82e3aa;
+
+  --success-button-ghost-background-color: transparent;
+  --success-button-ghost-background-color-enter: transparent;
+  --success-button-ghost-background-color-active: transparent;
+  --success-button-ghost-background-color-disabled: transparent;
+
+  --success-button-ghost-border: 1px solid #2ecc71;
+  --success-button-ghost-border-color-enter: #27ae60;
+  --success-button-ghost-border-color-active: #2ecc71;
+  --success-button-ghost-border-color-disabled: #82e3aa;
+
   --danger-button-font-color: #FFF;
   --danger-button-font-color-enter: #FFF;
   --danger-button-font-color-active: #FFF;
@@ -74,6 +122,21 @@
   --danger-button-border-color-enter: #c0392b;
   --danger-button-border-color-active: #e74c3c;
   --danger-button-border-color-disabled: #ee8377;
+
+  --danger-button-ghost-font-color: #e74c3c;
+  --danger-button-ghost-font-color-enter: #c0392b;
+  --danger-button-ghost-font-color-active: #e74c3c;
+  --danger-button-ghost-font-color-disabled: #ee8377;
+
+  --danger-button-ghost-background-color: transparent;
+  --danger-button-ghost-background-color-enter: transparent;
+  --danger-button-ghost-background-color-active: transparent;
+  --danger-button-ghost-background-color-disabled: transparent;
+
+  --danger-button-ghost-border: 1px solid #e74c3c;
+  --danger-button-ghost-border-color-enter: #c0392b;
+  --danger-button-ghost-border-color-active: #e74c3c;
+  --danger-button-ghost-border-color-disabled: #ee8377;
 
   --form-background-color: #FFF;
   --form-font-color: #222;

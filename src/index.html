@@ -5,9 +5,8 @@
         <meta charset="utf-8">
         <title>Skeleton Framework Test File</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+        <link href="//fonts.googleapis.com/css?family=Open+Sans:400,300,500,600" rel="stylesheet" type="text/css">
         <link rel="stylesheet" href="skeleton.css">
-        <link rel="icon" type="image/png" href="images/favicon.png">
 
         <style>
             .demo-col {
@@ -373,22 +372,24 @@
     <div class="container">
         <div class="row">
             <div class="twelve columns">
-                <h1>Heading<span class="heading-font-size"> <code>&lt;h1&gt;</code> 3.6rem</span></h1>
-                <h2>Heading<span class="heading-font-size"> <code>&lt;h2&gt;</code> 3.0rem</span></h2>
-                <h3>Heading<span class="heading-font-size"> <code>&lt;h3&gt;</code> 2.4rem</span></h3>
-                <h4>Heading<span class="heading-font-size"> <code>&lt;h4&gt;</code> 1.8rem</span></h4>
-                <h5>Heading<span class="heading-font-size"> <code>&lt;h5&gt;</code> 1.5rem</span></h5>
-                <h6>Heading<span class="heading-font-size"> <code>&lt;h6&gt;</code> 1.2rem</span></h6>
+                <h1>Heading <code>&lt;h1&gt;</code> 3.6rem</h1>
+                <h2>Heading <code>&lt;h2&gt;</code> 3.0rem</h2>
+                <h3>Heading <code>&lt;h3&gt;</code> 2.4rem</h3>
+                <h4>Heading <code>&lt;h4&gt;</code> 1.8rem</h4>
+                <h5>Heading <code>&lt;h5&gt;</code> 1.5rem</h5>
+                <h6>Heading <code>&lt;h6&gt;</code> 1.2rem</h6>
 
                 <p>
-                <strong>Bolded</strong>
-                <em>Italicized</em>
-                <a>Colored</a>
-                <u>Underlined</u>
-                <s>Stroked</s>
-                <span class="text-primary">Text Primary</>
-                    <span class="text-success">Text Success</>
-                        <span class="text-danger">Text Danger</>
+                <strong>Bolded</strong><br>
+                <em>Italicized</em><br>
+                <u>Underlined</u><br>
+                <s>Stroked</s><br>
+                <a href="#">Anchor</a><br>
+                </p>
+                <p>
+                <span class="text-primary">Text Primary</span><br>
+                    <span class="text-success">Text Success</span><br>
+                        <span class="text-danger">Text Danger</span><br>
                             </p>
 
                             <p>
@@ -412,44 +413,43 @@
                     <div class="row">
                         <div class="twelve columns">
                             <div>
-                                <a class="button" href="#">Anchor button</a>
                                 <button>Button element</button>
-                                <input type="submit" value="submit input">
-                                <input type="button" value="button input">
-                                <input type="button" value="active button" active>
                                 <input type="button" value="disabled button" disabled>
                             </div>
-
                             <div>
-                                <a class="button button-primary" href="#">Anchor button</a>
+                                <button class="button-ghost">Button element</button>
+                                <input class="button-ghost" type="button" value="disabled button" disabled>
+                            </div>
+                            <div>
                                 <button class="button-primary">Button element</button>
-                                <input class="button-primary" type="submit" value="submit input">
-                                <input class="button-primary" type="button" value="button input">
-                                <input class="button-primary" type="button" value="active button" active>
                                 <input class="button-primary" type="button" value="disabled button" disabled>
                             </div>
                             <div>
-                                <a class="button button-success" href="#">Anchor button</a>
+                                <button class="button-primary button-ghost">Button element</button>
+                                <input class="button-primary button-ghost" type="button" value="disabled button" disabled>
+                            </div>
+                            <div>
                                 <button class="button-success">Button element</button>
-                                <input class="button-success" type="submit" value="submit input">
-                                <input class="button-success" type="button" value="button input">
-                                <input class="button-success" type="button" value="active button" active>
                                 <input class="button-success" type="button" value="disabled button" disabled>
                             </div>
                             <div>
-                                <a class="button button-danger" href="#">Anchor button</a>
+                                <button class="button-success button-ghost">Button element</button>
+                                <input class="button-success button-ghost" type="button" value="disabled button" disabled>
+                            </div>
+                            <div>
                                 <button class="button-danger">Button element</button>
-                                <input class="button-danger" type="submit" value="submit input">
-                                <input class="button-danger" type="button" value="button input">
-                                <input class="button-danger" type="button" value="active button" active>
                                 <input class="button-danger" type="button" value="disabled button" disabled>
+                            </div>
+                            <div>
+                                <button class="button-danger button-ghost">Button element</button>
+                                <input class="button-danger button-ghost" type="button" value="disabled button" disabled>
                             </div>
                         </div>
                     </div>
                 </div>
                 <br>
 
-                <div class="container">
+                <!-- <div class="container">
                     <div class="row">
                         <div class="tweleve columns">
                             <h3>forms</h3>
@@ -500,6 +500,24 @@
                             </div>
                         </div>
                     </form>
+                </div>
+                <br> -->
+
+                <div class="container">
+                    <div class="row">
+                        <div class="tweleve columns">
+                            <h3>seperator</h3>
+                        </div>
+                    </div>
+                </div>
+                <br>
+
+                <div class="container">
+                    <div class="row">
+                        <div class="tweleve columns">
+                            <hr>
+                        </div>
+                    </div>
                 </div>
                 <br>
 
@@ -558,9 +576,9 @@
                         <div class="twelve columns">
                             <pre>
                               <code>
-                                .some-class {
-                                    background-color: red;
-                                }
+.some-class {
+  background-color: red;
+}
                               </code>
                             </pre>
                         </div>
@@ -597,7 +615,7 @@
                 </div>
                 <br>
 
-                <div class="container">
+                <!-- <div class="container">
                     <div class="row">
                         <div class="twelve columns">
                             <h3>tables</h3>
@@ -670,9 +688,9 @@
                             </div>
                         </div>
                     </div>
-                    <br>
+                    <br> -->
 
-                    <div class="container">
+                    <!-- <div class="container">
                         <div class="row">
                             <div class="twelve columns">
                                 <h3>cards</h3>
@@ -690,7 +708,7 @@
                                     <h5>Text</h5>
                                     <p>Text</p>
                                     <div class="u-text-right">
-                                        <button class="button-primary">Nice Button</button>  
+                                        <button class="button-primary">Nice Button</button>
                                     </div>
                                 </div>
                             </div>
@@ -699,7 +717,7 @@
                                     <h5>Text</h5>
                                     <p>Text</p>
                                     <div class="u-text-right">
-                                        <button class="button-primary">Nice Button</button>  
+                                        <button class="button-primary">Nice Button</button>
                                     </div>
                                 </div>
                             </div>
@@ -755,7 +773,7 @@
                             </div>
                         </div>
                     </div>
-                    <br>
+                    <br> -->
 
                 </body>
 
