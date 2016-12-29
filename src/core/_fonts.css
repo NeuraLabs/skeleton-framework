@@ -1,0 +1,97 @@
+@font-face {
+  font-family: 'Aileron';
+  font-style: normal;
+  font-weight: 100;
+  src: local('Aileron Thin'), local('AileronThin'), url('./fonts/Aileron-Thin.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Aileron';
+  font-style: normal;
+  font-weight: 200;
+  src: local('Aileron UltraLight'), local('AileronUltraLight'), url('./fonts/Aileron-UltraLight.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Aileron';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Aileron Light'), local('AileronLight'), url('./fonts/Aileron-Light.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Aileron';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Aileron Regular'), local('AileronRegular'), url('./fonts/Aileron-Regular.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Aileron';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Aileron SemiBold'), local('AileronSemiBold'), url('./fonts/Aileron-SemiBold.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Aileron';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Aileron Bold'), local('AileronBold'), url('./fonts/Aileron-Bold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Bebas Neue';
+  font-style: normal;
+  font-weight: 100;
+  src: local('Bebas Neue Thin'), url('./fonts/Bebas-Neue-Thin.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Bebas Neue';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Bebas Neue Light'), url('./fonts/Bebas-Neue-Light.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Bebas Neue';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Bebas Neue Regular'), url('./fonts/Bebas-Neue-Regular.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Bebas Neue';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Bebas Neue Book'), url('./fonts/Bebas-Neue-Book.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Bebas Neue';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Bebas Neue Bold'), url('./fonts/Bebas-Neue-Bold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Hack';
+  src: url('./fonts/eot/hack-regular-webfont.eot?v=2.019');
+  src: url('./fonts/eot/hack-regular-webfont.eot?#iefix&v=2.019') format('embedded-opentype'), url('./fonts/woff2/hack-regular-webfont.woff2?v=2.019') format('woff2'), url('./fonts/woff/hack-regular-webfont.woff?v=2.019') format('woff'), url('./fonts/web-ttf/hack-regular-webfont.ttf?v=2.019') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Hack';
+  src: url('./fonts/eot/hack-bold-webfont.eot?v=2.019');
+  src: url('./fonts/eot/hack-bold-webfont.eot?#iefix&v=2.019') format('embedded-opentype'), url('./fonts/woff2/hack-bold-webfont.woff2?v=2.019') format('woff2'), url('./fonts/woff/hack-bold-webfont.woff?v=2.019') format('woff'), url('./fonts/web-ttf/hack-bold-webfont.ttf?v=2.019') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Hack';
+  src: url('./fonts/eot/hack-italic-webfont.eot?v=2.019');
+  src: url('./fonts/eot/hack-italic-webfont.eot?#iefix&v=2.019') format('embedded-opentype'), url('./fonts/woff2/hack-italic-webfont.woff2?v=2.019') format('woff2'), url('./fonts/woff/hack-italic-webfont.woff?v=2.019') format('woff'), url('./fonts/web-ttf/hack-italic-webfont.ttf?v=2.019') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Hack';
+  src: url('./fonts/eot/hack-bolditalic-webfont.eot?v=2.019');
+  src: url('./fonts/eot/hack-bolditalic-webfont.eot?#iefix&v=2.019') format('embedded-opentype'), url('./fonts/woff2/hack-bolditalic-webfont.woff2?v=2.019') format('woff2'), url('./fonts/woff/hack-bolditalic-webfont.woff?v=2.019') format('woff'), url('./fonts/web-ttf/hack-bolditalic-webfont.ttf?v=2.019') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+}
+

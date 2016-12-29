@@ -15,6 +15,7 @@
 */
 
 @import "core/_root.css";
+@import "core/_fonts.css";
 @import "core/_base.css";
 @import "core/_grid.css";
 @import "core/_typography.css";
