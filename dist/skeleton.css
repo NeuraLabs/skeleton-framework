@@ -141,7 +141,7 @@ body {
   font-size: 0.75rem;
   font-weight: 400;
   font-family: "Open Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #353535;
+  color: #143945;
   margin: 0;
   padding: 0;
 }
@@ -737,26 +737,26 @@ p {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 a {
-  color: #0CF;
+  color: #21B4EB;
 }
 
 a:hover {
-  color: #33D6FF;
+  color: #039FD9;
 }
 
 /* Colors
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .text-primary {
- color: #0CF
+ color: #21B4EB
 }
 
 .text-success {
-  color: #2ECC71
+  color: #2EC94E
 }
 
 .text-danger {
-  color: #E74C3C
+  color: #E15454
 }
 
 .button,
@@ -873,9 +873,9 @@ button.button-primary,
 input[type="submit"].button-primary,
 input[type="reset"].button-primary,
 input[type="button"].button-primary {
-  border: 1px solid #0CF;
+  border: 1px solid #21B4EB;
   color: #FFF;
-  background-color: #0CF;
+  background-color: #21B4EB;
   -webkit-transition: background-color 0.2s;
   transition: background-color 0.2s;
 }
@@ -891,8 +891,8 @@ input[type="submit"].button-primary:focus,
 input[type="reset"].button-primary:focus,
 input[type="button"].button-primary:focus {
   color: #FFF;
-  background-color: #33D6FF;
-  border-color: #33D6FF;
+  background-color: #039FD9;
+  border-color: #039FD9;
 }
 
 .button.button-primary:active,
@@ -921,8 +921,8 @@ button.button-primary.button-ghost,
 input[type="submit"].button-primary.button-ghost,
 input[type="reset"].button-primary.button-ghost,
 input[type="button"].button-primary.button-ghost {
-  border: 1px solid #0CF;
-  color: #0CF;
+  border: 1px solid #21B4EB;
+  color: #21B4EB;
   background-color: transparent;
   -webkit-transition: background-color 0.2s;
   transition: background-color 0.2s;
@@ -938,9 +938,9 @@ button.button-primary.button-ghost:focus,
 input[type="submit"].button-primary.button-ghost:focus,
 input[type="reset"].button-primary.button-ghost:focus,
 input[type="button"].button-primary.button-ghost:focus {
-  color: #33D6FF;
+  color: #039FD9;
   background-color: transparent;
-  border-color: #33D6FF;
+  border-color: #039FD9;
 }
 
 .button.button-primary.button-ghost:active,
@@ -969,9 +969,9 @@ button.button-success,
 input[type="submit"].button-success,
 input[type="reset"].button-success,
 input[type="button"].button-success {
-  border: 1px solid #2ECC71;
+  border: 1px solid #2EC94E;
   color: #FFF;
-  background-color: #2ECC71;
+  background-color: #2EC94E;
   -webkit-transition: background-color 0.2s;
   transition: background-color 0.2s;
 }
@@ -997,8 +997,8 @@ input[type="submit"].button-success:active,
 input[type="reset"].button-success:active,
 input[type="button"].button-success:active {
   color: #FFF;
-  background-color: #2ECC71;
-  border-color: #2ECC71;
+  background-color: #2EC94E;
+  border-color: #2EC94E;
 }
 
 .button.button-success:disabled,
@@ -1017,8 +1017,8 @@ button.button-success.button-ghost,
 input[type="submit"].button-success.button-ghost,
 input[type="reset"].button-success.button-ghost,
 input[type="button"].button-success.button-ghost {
-  border: 1px solid #2ECC71;
-  color: #2ECC71;
+  border: 1px solid #2EC94E;
+  color: #2EC94E;
   background-color: transparent;
   -webkit-transition: background-color 0.2s;
   transition: background-color 0.2s;
@@ -1044,9 +1044,9 @@ button.button-success.button-ghost:active,
 input[type="submit"].button-success.button-ghost:active,
 input[type="reset"].button-success.button-ghost:active,
 input[type="button"].button-success.button-ghost:active {
-  color: #2ECC71;
+  color: #2EC94E;
   background-color: transparent;
-  border-color: #2ECC71;
+  border-color: #2EC94E;
 }
 
 .button.button-success.button-ghost:disabled,
@@ -1065,9 +1065,9 @@ button.button-danger,
 input[type="submit"].button-danger,
 input[type="reset"].button-danger,
 input[type="button"].button-danger {
-  border: 1px solid #E74C3C;
+  border: 1px solid #E15454;
   color: #FFF;
-  background-color: #E74C3C;
+  background-color: #E15454;
   -webkit-transition: background-color 0.2s;
   transition: background-color 0.2s;
 }
@@ -1093,8 +1093,8 @@ input[type="submit"].button-danger:active,
 input[type="reset"].button-danger:active,
 input[type="button"].button-danger:active {
   color: #FFF;
-  background-color: #E74C3C;
-  border-color: #E74C3C;
+  background-color: #E15454;
+  border-color: #E15454;
 }
 
 .button.button-danger:disabled,
@@ -1113,8 +1113,8 @@ button.button-danger.button-ghost,
 input[type="submit"].button-danger.button-ghost,
 input[type="reset"].button-danger.button-ghost,
 input[type="button"].button-danger.button-ghost {
-  border: 1px solid #E74C3C;
-  color: #E74C3C;
+  border: 1px solid #E15454;
+  color: #E15454;
   background-color: transparent;
   -webkit-transition: background-color 0.2s;
   transition: background-color 0.2s;
@@ -1140,9 +1140,9 @@ button.button-danger.button-ghost:active,
 input[type="submit"].button-danger.button-ghost:active,
 input[type="reset"].button-danger.button-ghost:active,
 input[type="button"].button-danger.button-ghost:active {
-  color: #E74C3C;
+  color: #E15454;
   background-color: transparent;
-  border-color: #E74C3C;
+  border-color: #E15454;
 }
 
 .button.button-danger.button-ghost:disabled,
@@ -1222,19 +1222,19 @@ input[type="url"]:focus,
 input[type="password"]:focus,
 textarea:focus,
 select:focus {
-  border: 1px solid #0CF;
+  border: 1px solid #21B4EB;
   outline: 0;
 }
 
 .has-error,
 .has-error:focus {
-  border: 1px solid #E74C3C !important;
+  border: 1px solid #E15454 !important;
   outline: 0;
 }
 
 .has-success,
 .has-success:focus {
-  border: 1px solid #2ECC71 !important;
+  border: 1px solid #2EC94E !important;
   outline: 0;
 }
 
@@ -1361,21 +1361,21 @@ pre > code {
 }
 
 .alert.alert-primary {
-  border: 1px solid #0CF;
+  border: 1px solid #21B4EB;
   color: #FFF;
-  background-color: #0CF;
+  background-color: #21B4EB;
 }
 
 .alert.alert-success {
-  border: 1px solid #2ECC71;
+  border: 1px solid #2EC94E;
   color: #FFF;
-  background-color: #2ECC71;
+  background-color: #2EC94E;
 }
 
 .alert.alert-danger {
-  border: 1px solid #E74C3C;
+  border: 1px solid #E15454;
   color: #FFF;
-  background-color: #E74C3C;
+  background-color: #E15454;
 }
 
 .table-responsive {
