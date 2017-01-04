@@ -29,7 +29,7 @@
   --button-background-color-active: #222;
   --button-background-color-disabled: #888;
 
-  --button-border: 1px solid #555;
+  --button-border: 2px solid #555;
   --button-border-color-enter: #333;
   --button-border-color-active: #222;
   --button-border-color-disabled: #888;
@@ -44,7 +44,7 @@
   --button-ghost-background-color-active: transparent;
   --button-ghost-background-color-disabled: transparent;
 
-  --button-ghost-border: 1px solid #555;
+  --button-ghost-border: 2px solid #555;
   --button-ghost-border-color-enter: #333;
   --button-ghost-border-color-active: #222;
   --button-ghost-border-color-disabled: #888;
@@ -59,7 +59,7 @@
   --primary-button-background-color-active: #157B9B;
   --primary-button-background-color-disabled: #7CD9F8;
 
-  --primary-button-border: 1px solid #21B4EB;
+  --primary-button-border: 2px solid #21B4EB;
   --primary-button-border-color-enter: #039FD9;
   --primary-button-border-color-active: #157B9B;
   --primary-button-border-color-disabled: #7CD9F8;
@@ -74,7 +74,7 @@
   --primary-button-ghost-background-color-active: transparent;
   --primary-button-ghost-background-color-disabled: transparent;
 
-  --primary-button-ghost-border: 1px solid #21B4EB;
+  --primary-button-ghost-border: 2px solid #21B4EB;
   --primary-button-ghost-border-color-enter: #039FD9;
   --primary-button-ghost-border-color-active: #157B9B;
   --primary-button-ghost-border-color-disabled: #7CD9F8;
@@ -89,7 +89,7 @@
   --success-button-background-color-active: #2EC94E;
   --success-button-background-color-disabled: #82E3AA;
 
-  --success-button-border: 1px solid #2EC94E;
+  --success-button-border: 2px solid #2EC94E;
   --success-button-border-color-enter: #27AE60;
   --success-button-border-color-active: #2EC94E;
   --success-button-border-color-disabled: #82E3AA;
@@ -104,7 +104,7 @@
   --success-button-ghost-background-color-active: transparent;
   --success-button-ghost-background-color-disabled: transparent;
 
-  --success-button-ghost-border: 1px solid #2EC94E;
+  --success-button-ghost-border: 2px solid #2EC94E;
   --success-button-ghost-border-color-enter: #27AE60;
   --success-button-ghost-border-color-active: #2EC94E;
   --success-button-ghost-border-color-disabled: #82E3AA;
@@ -119,7 +119,7 @@
   --danger-button-background-color-active: #E15454;
   --danger-button-background-color-disabled: #EE8377;
 
-  --danger-button-border: 1px solid #E15454;
+  --danger-button-border: 2px solid #E15454;
   --danger-button-border-color-enter: #C0392B;
   --danger-button-border-color-active: #E15454;
   --danger-button-border-color-disabled: #EE8377;
@@ -134,7 +134,7 @@
   --danger-button-ghost-background-color-active: transparent;
   --danger-button-ghost-background-color-disabled: transparent;
 
-  --danger-button-ghost-border: 1px solid #E15454;
+  --danger-button-ghost-border: 2px solid #E15454;
   --danger-button-ghost-border-color-enter: #C0392B;
   --danger-button-ghost-border-color-active: #E15454;
   --danger-button-ghost-border-color-disabled: #EE8377;

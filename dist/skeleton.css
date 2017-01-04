@@ -1,4 +1,4 @@
-/*! skeleton-framework | 1.1.0 | MIT | 1/2/2017 */
+/*! skeleton-framework | 1.1.0 | MIT | 3/4/2017 */
 /* Table of contents
 - Font Declarations
 - Base Styles
@@ -778,7 +778,7 @@ input[type="button"] {
   white-space: nowrap;
   background-color: #555;
   border-radius: 3px;
-  border: 1px solid #555;
+  border: 2px solid #555;
   cursor: pointer;
   -webkit-transition: background-color 0.2s;
   transition: background-color 0.2s;
@@ -825,7 +825,7 @@ button.button-ghost,
 input[type="submit"].button-ghost,
 input[type="reset"].button-ghost,
 input[type="button"].button-ghost {
-  border: 1px solid #555;
+  border: 2px solid #555;
   color: #555;
   background-color: transparent;
   -webkit-transition: background-color 0.2s;
@@ -873,7 +873,7 @@ button.button-primary,
 input[type="submit"].button-primary,
 input[type="reset"].button-primary,
 input[type="button"].button-primary {
-  border: 1px solid #21B4EB;
+  border: 2px solid #21B4EB;
   color: #FFF;
   background-color: #21B4EB;
   -webkit-transition: background-color 0.2s;
@@ -921,7 +921,7 @@ button.button-primary.button-ghost,
 input[type="submit"].button-primary.button-ghost,
 input[type="reset"].button-primary.button-ghost,
 input[type="button"].button-primary.button-ghost {
-  border: 1px solid #21B4EB;
+  border: 2px solid #21B4EB;
   color: #21B4EB;
   background-color: transparent;
   -webkit-transition: background-color 0.2s;
@@ -969,7 +969,7 @@ button.button-success,
 input[type="submit"].button-success,
 input[type="reset"].button-success,
 input[type="button"].button-success {
-  border: 1px solid #2EC94E;
+  border: 2px solid #2EC94E;
   color: #FFF;
   background-color: #2EC94E;
   -webkit-transition: background-color 0.2s;
@@ -1017,7 +1017,7 @@ button.button-success.button-ghost,
 input[type="submit"].button-success.button-ghost,
 input[type="reset"].button-success.button-ghost,
 input[type="button"].button-success.button-ghost {
-  border: 1px solid #2EC94E;
+  border: 2px solid #2EC94E;
   color: #2EC94E;
   background-color: transparent;
   -webkit-transition: background-color 0.2s;
@@ -1065,7 +1065,7 @@ button.button-danger,
 input[type="submit"].button-danger,
 input[type="reset"].button-danger,
 input[type="button"].button-danger {
-  border: 1px solid #E15454;
+  border: 2px solid #E15454;
   color: #FFF;
   background-color: #E15454;
   -webkit-transition: background-color 0.2s;
@@ -1113,7 +1113,7 @@ button.button-danger.button-ghost,
 input[type="submit"].button-danger.button-ghost,
 input[type="reset"].button-danger.button-ghost,
 input[type="button"].button-danger.button-ghost {
-  border: 1px solid #E15454;
+  border: 2px solid #E15454;
   color: #E15454;
   background-color: transparent;
   -webkit-transition: background-color 0.2s;
