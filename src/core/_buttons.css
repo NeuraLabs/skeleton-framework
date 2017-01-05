@@ -56,10 +56,8 @@ button:disabled,
 input[type="submit"]:disabled,
 input[type="reset"]:disabled,
 input[type="button"]:disabled {
-  color: var(--button-font-color-disabled);
-  background-color: var(--button-background-color-disabled);
-  border-color: var(--button-border-color-disabled);
   cursor: not-allowed;
+  opacity: 0.3;
 }
 
 .button.button-ghost,
@@ -102,17 +100,6 @@ input[type="button"].button-ghost:active {
   border-color: var(--button-ghost-border-color-active);
 }
 
-.button.button-ghost:disabled,
-button.button-ghost:disabled,
-input[type="submit"].button-ghost:disabled,
-input[type="reset"].button-ghost:disabled,
-input[type="button"].button-ghost:disabled {
-  color: var(--button-ghost-font-color-disabled);
-  cursor: not-allowed;
-  background-color: var(--button-ghost-background-color-disabled);
-  border-color: var(--button-ghost-border-color-disabled);
-}
-
 .button.button-primary,
 button.button-primary,
 input[type="submit"].button-primary,
@@ -151,17 +138,6 @@ input[type="button"].button-primary:active {
   color: var(--primary-button-font-color-active);
   background-color: var(--primary-button-background-color-active);
   border-color: var(--primary-button-border-color-active);
-}
-
-.button.button-primary:disabled,
-button.button-primary:disabled,
-input[type="submit"].button-primary:disabled,
-input[type="reset"].button-primary:disabled,
-input[type="button"].button-primary:disabled {
-  color: var(--primary-button-font-color-disabled);
-  cursor: not-allowed;
-  background-color: var(--primary-button-background-color-disabled);
-  border-color: var(--primary-button-border-color-disabled);
 }
 
 .button.button-primary.button-ghost,
@@ -204,17 +180,6 @@ input[type="button"].button-primary.button-ghost:active {
   border-color: var(--primary-button-ghost-border-color-active);
 }
 
-.button.button-primary.button-ghost:disabled,
-button.button-primary.button-ghost:disabled,
-input[type="submit"].button-primary.button-ghost:disabled,
-input[type="reset"].button-primary.button-ghost:disabled,
-input[type="button"].button-primary.button-ghost:disabled {
-  color: var(--primary-button-ghost-font-color-disabled);
-  cursor: not-allowed;
-  background-color: var(--primary-button-ghost-background-color-disabled);
-  border-color: var(--primary-button-ghost-border-color-disabled);
-}
-
 .button.button-success,
 button.button-success,
 input[type="submit"].button-success,
@@ -253,17 +218,6 @@ input[type="button"].button-success:active {
   color: var(--success-button-font-color-active);
   background-color: var(--success-button-background-color-active);
   border-color: var(--success-button-border-color-active);
-}
-
-.button.button-success:disabled,
-button.button-success:disabled,
-input[type="submit"].button-success:disabled,
-input[type="reset"].button-success:disabled,
-input[type="button"].button-success:disabled {
-  color: var(--success-button-font-color-disabled);
-  cursor: not-allowed;
-  background-color: var(--success-button-background-color-disabled);
-  border-color: var(--success-button-border-color-disabled);
 }
 
 .button.button-success.button-ghost,
@@ -306,17 +260,6 @@ input[type="button"].button-success.button-ghost:active {
   border-color: var(--success-button-ghost-border-color-active);
 }
 
-.button.button-success.button-ghost:disabled,
-button.button-success.button-ghost:disabled,
-input[type="submit"].button-success.button-ghost:disabled,
-input[type="reset"].button-success.button-ghost:disabled,
-input[type="button"].button-success.button-ghost:disabled {
-  color: var(--success-button-ghost-font-color-disabled);
-  cursor: not-allowed;
-  background-color: var(--success-button-ghost-background-color-disabled);
-  border-color: var(--success-button-ghost-border-color-disabled);
-}
-
 .button.button-danger,
 button.button-danger,
 input[type="submit"].button-danger,
@@ -357,17 +300,6 @@ input[type="button"].button-danger:active {
   border-color: var(--danger-button-border-color-active);
 }
 
-.button.button-danger:disabled,
-button.button-danger:disabled,
-input[type="submit"].button-danger:disabled,
-input[type="reset"].button-danger:disabled,
-input[type="button"].button-danger:disabled {
-  color: var(--danger-button-font-color-disabled);
-  cursor: not-allowed;
-  background-color: var(--danger-button-background-color-disabled);
-  border-color: var(--danger-button-border-color-disabled);
-}
-
 .button.button-danger.button-ghost,
 button.button-danger.button-ghost,
 input[type="submit"].button-danger.button-ghost,
@@ -406,15 +338,4 @@ input[type="button"].button-danger.button-ghost:active {
   color: var(--danger-button-ghost-font-color-active);
   background-color: var(--danger-button-ghost-background-color-active);
   border-color: var(--danger-button-ghost-border-color-active);
-}
-
-.button.button-danger.button-ghost:disabled,
-button.button-danger.button-ghost:disabled,
-input[type="submit"].button-danger.button-ghost:disabled,
-input[type="reset"].button-danger.button-ghost:disabled,
-input[type="button"].button-danger.button-ghost:disabled {
-  color: var(--danger-button-ghost-font-color-disabled);
-  cursor: not-allowed;
-  background-color: var(--danger-button-ghost-background-color-disabled);
-  border-color: var(--danger-button-ghost-border-color-disabled);
 }

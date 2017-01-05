@@ -814,10 +814,8 @@ button:disabled,
 input[type="submit"]:disabled,
 input[type="reset"]:disabled,
 input[type="button"]:disabled {
-  color: #FFF;
-  background-color: #888;
-  border-color: #888;
   cursor: not-allowed;
+  opacity: 0.3;
 }
 
 .button.button-ghost,
@@ -857,17 +855,6 @@ input[type="button"].button-ghost:active {
   border-color: #222;
 }
 
-.button.button-ghost:disabled,
-button.button-ghost:disabled,
-input[type="submit"].button-ghost:disabled,
-input[type="reset"].button-ghost:disabled,
-input[type="button"].button-ghost:disabled {
-  color: #888;
-  cursor: not-allowed;
-  background-color: transparent;
-  border-color: #888;
-}
-
 .button.button-primary,
 button.button-primary,
 input[type="submit"].button-primary,
@@ -903,17 +890,6 @@ input[type="button"].button-primary:active {
   color: #FFF;
   background-color: #157B9B;
   border-color: #157B9B;
-}
-
-.button.button-primary:disabled,
-button.button-primary:disabled,
-input[type="submit"].button-primary:disabled,
-input[type="reset"].button-primary:disabled,
-input[type="button"].button-primary:disabled {
-  color: #FFF;
-  cursor: not-allowed;
-  background-color: #7CD9F8;
-  border-color: #7CD9F8;
 }
 
 .button.button-primary.button-ghost,
@@ -953,17 +929,6 @@ input[type="button"].button-primary.button-ghost:active {
   border-color: #157B9B;
 }
 
-.button.button-primary.button-ghost:disabled,
-button.button-primary.button-ghost:disabled,
-input[type="submit"].button-primary.button-ghost:disabled,
-input[type="reset"].button-primary.button-ghost:disabled,
-input[type="button"].button-primary.button-ghost:disabled {
-  color: #7CD9F8;
-  cursor: not-allowed;
-  background-color: transparent;
-  border-color: #7CD9F8;
-}
-
 .button.button-success,
 button.button-success,
 input[type="submit"].button-success,
@@ -999,17 +964,6 @@ input[type="button"].button-success:active {
   color: #FFF;
   background-color: #2EC94E;
   border-color: #2EC94E;
-}
-
-.button.button-success:disabled,
-button.button-success:disabled,
-input[type="submit"].button-success:disabled,
-input[type="reset"].button-success:disabled,
-input[type="button"].button-success:disabled {
-  color: #FFF;
-  cursor: not-allowed;
-  background-color: #82E3AA;
-  border-color: #82E3AA;
 }
 
 .button.button-success.button-ghost,
@@ -1049,17 +1003,6 @@ input[type="button"].button-success.button-ghost:active {
   border-color: #2EC94E;
 }
 
-.button.button-success.button-ghost:disabled,
-button.button-success.button-ghost:disabled,
-input[type="submit"].button-success.button-ghost:disabled,
-input[type="reset"].button-success.button-ghost:disabled,
-input[type="button"].button-success.button-ghost:disabled {
-  color: #82E3AA;
-  cursor: not-allowed;
-  background-color: transparent;
-  border-color: #82E3AA;
-}
-
 .button.button-danger,
 button.button-danger,
 input[type="submit"].button-danger,
@@ -1097,17 +1040,6 @@ input[type="button"].button-danger:active {
   border-color: #E15454;
 }
 
-.button.button-danger:disabled,
-button.button-danger:disabled,
-input[type="submit"].button-danger:disabled,
-input[type="reset"].button-danger:disabled,
-input[type="button"].button-danger:disabled {
-  color: #FFF;
-  cursor: not-allowed;
-  background-color: #EE8377;
-  border-color: #EE8377;
-}
-
 .button.button-danger.button-ghost,
 button.button-danger.button-ghost,
 input[type="submit"].button-danger.button-ghost,
@@ -1143,17 +1075,6 @@ input[type="button"].button-danger.button-ghost:active {
   color: #E15454;
   background-color: transparent;
   border-color: #E15454;
-}
-
-.button.button-danger.button-ghost:disabled,
-button.button-danger.button-ghost:disabled,
-input[type="submit"].button-danger.button-ghost:disabled,
-input[type="reset"].button-danger.button-ghost:disabled,
-input[type="button"].button-danger.button-ghost:disabled {
-  color: #EE8377;
-  cursor: not-allowed;
-  background-color: transparent;
-  border-color: #EE8377;
 }
 
 input[type="email"],
