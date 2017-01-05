@@ -1,4 +1,4 @@
-/*! skeleton-framework | 1.1.0 | MIT | 3/4/2017 */
+/*! skeleton-framework | 1.1.0 | MIT | 4/5/2017 */
 /* Table of contents
 - Font Declarations
 - Base Styles
@@ -1489,7 +1489,7 @@ hr {
   margin-top: .5rem;
   margin-bottom: 1rem;
   border-width: 0;
-  border-top: 1px solid #E1E1E1;
+  border-top: 1px solid #143945;
 }
 
 /* Clearing */
