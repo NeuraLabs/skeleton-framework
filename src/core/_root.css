@@ -19,6 +19,8 @@
   --text-color-danger: #E15454;
   --text-color-success: #2EC94E;
 
+  --button-border-radius: 25px;
+
   --button-font-color: #FFF;
   --button-font-color-enter: #FFF;
   --button-font-color-active: #FFF;

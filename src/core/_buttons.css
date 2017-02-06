@@ -16,7 +16,7 @@ input[type="button"] {
   text-decoration: none;
   white-space: nowrap;
   background-color: var(--button-background-color);
-  border-radius: var(--border-radius);
+  border-radius: var(--button-border-radius);
   border: var(--button-border);
   cursor: pointer;
   -webkit-transition: background-color 0.2s;
