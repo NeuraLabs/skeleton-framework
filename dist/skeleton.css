@@ -1,4 +1,4 @@
-/*! skeleton-framework | 1.2.3 | MIT | 2/7/2017 */
+/*! skeleton-framework | 1.2.4 | MIT | 2/7/2017 */
 /* Table of contents
 - Font Declarations
 - Base Styles
@@ -149,6 +149,12 @@ body {
 @media (min-width: 560px) {
   body {
     font-size: .875rem;
+  }
+}
+
+@media (min-width: 720px) {
+  body {
+    font-size: 1rem;
   }
 }
 

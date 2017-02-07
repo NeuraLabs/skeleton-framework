@@ -24,3 +24,9 @@ body {
     font-size: .875rem;
   }
 }
+
+@media (min-width: 720px) {
+  body {
+    font-size: 1rem;
+  }
+}
