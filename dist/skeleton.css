@@ -1,4 +1,4 @@
-/*! skeleton-framework | 1.2.2 | MIT | 2/7/2017 */
+/*! skeleton-framework | 1.2.3 | MIT | 2/7/2017 */
 /* Table of contents
 - Font Declarations
 - Base Styles
@@ -141,7 +141,7 @@ body {
   font-size: 0.75rem;
   font-weight: 400;
   font-family: "Open Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #353535;
+  color: #143945;
   margin: 0;
   padding: 0;
 }
@@ -676,7 +676,6 @@ h3,
 h4,
 h5,
 h6 {
-  color: #143945;
   margin-top: 0;
   margin-bottom: .75rem;
   font-family: Bebas, "Bebas Neue", "Open Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;

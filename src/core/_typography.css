@@ -7,7 +7,6 @@ h3,
 h4,
 h5,
 h6 {
-  color: var(--title-color);
   margin-top: 0;
   margin-bottom: .75rem;
   font-family: var(--title-font-family);
