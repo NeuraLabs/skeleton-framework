@@ -1,4 +1,4 @@
-/*! skeleton-framework | 1.2.4 | MIT | 0/19/2017 */
+/*! skeleton-framework | 1.2.5 | MIT | 0/19/2017 */
 /* Table of contents
 - Font Declarations
 - Base Styles
@@ -673,8 +673,7 @@ body {
   }
 }
 
-/* Base Typo
- font-size: 2rem;----------------------------- */
+/* Base Typo */
 
 h1,
 h2,
@@ -739,8 +738,7 @@ p {
   margin-top: 0;
 }
 
-/* Links
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* Links */
 
 a {
   color: #21B4EB;
@@ -750,8 +748,7 @@ a:hover {
   color: #039FD9;
 }
 
-/* Colors
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* Colors */
 
 .text-primary {
  color: #21B4EB
